@@ -1,0 +1,155 @@
+.container {
+    width: 1440px;
+    height: 783px;
+    background-color: #131313;
+
+    display: flex;
+}
+
+.left_block {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right_block {
+    width: 60%;
+    height: 100%;
+}
+
+.r_top_block {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.r_down_block {
+    width: 100%;
+    height: 80%;    
+}
+
+.btn {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 20px;
+    margin-right: 50px;
+
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.img {
+    height: 482px;
+    width: 679px;
+    display: none;
+}
+
+.img:first-child {
+    display: block;
+}
+
+.line_1 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+
+    color: #E3B873;
+    
+    margin-top: 30%;
+    margin-left: 70px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.line_2 {
+    height: 86px;
+    width: 442px;
+    left: 134px;
+    top: 276.3602294921875px;
+    border-radius: nullpx;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+
+    
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.line_3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info_block {
+    margin-left: 70px;
+}
+
+.title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+
+    color: #E3B873;
+}
+
+.text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.line_4{
+    margin-left: 70px;
+}
+
+.nav_btn {
+    margin-top: 80px;
+    margin-left: 5px;
+
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.nav_btn_prev {
+    margin-top: 80px;
+    margin-left: 5px;
+
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.nav_btn_next {
+    margin-top: 80px;
+    margin-left: 5px;
+
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
